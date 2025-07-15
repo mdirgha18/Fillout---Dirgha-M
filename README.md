@@ -2,38 +2,37 @@
 
 # 🧭 Drag-and-Drop Step Navigator
 
-A learning project: **Interactive Step Navigation UI** built with **React**, **TypeScript**, **Tailwind CSS**, and **@dnd-kit**.
+An **interactive Step Navigation UI** built with **React**, **TypeScript**, **Tailwind CSS**, and **@dnd-kit**.
 
-I created this as part of a **frontend take-home assignment**, using online resources and AI guidance to complete it.
+Created as part of a **frontend take-home assignment**.
 
 It demonstrates:
-- Custom drag-and-drop
-- Inline page insertion
-- Context menus per step
-- Clean component design in React + TypeScript
+
+* Custom drag-and-drop behavior
+* Inline page insertion
+* Per-step context menus
+* Clean, modular component design in React + TypeScript
 
 ---
 
 ## 🌟 Motivation
 
-This project was my submission for the **first-round assignment** of Fillout's Senior Frontend Engineer interview.
+This project was built for a **first-round take-home assignment**.
 
-While I'm early in my career and don't have professional experience yet, I used this challenge to learn:
+As an early-career developer, I used this challenge to practice:
 
-* How to implement **drag-and-drop** with @dnd-kit
-* How to manage component state with **React hooks**
-* How to design UI with **Tailwind CSS**
-* How to break down requirements into **reusable components**
-
-I did this with help (including ChatGPT suggestions), reading docs, and trial-and-error to *finish* the spec.
+* Implementing **drag-and-drop** with @dnd-kit
+* Managing component state with **React hooks**
+* Designing UI with **Tailwind CSS**
+* Structuring requirements into **reusable components**
 
 ---
 
 ## 🚀 Features
 
 * ✅ Drag-and-drop step reordering
-* ➕ Inline "+" button to insert a new page between steps
-* ⚙️ Per-step dropdown menu with:
+* ➕ Inline "+" button to insert new pages
+* ⚙️ Per-step settings menu:
 
   * Set as first
   * Rename
@@ -41,13 +40,13 @@ I did this with help (including ChatGPT suggestions), reading docs, and trial-an
   * Copy
   * Delete
 * ✨ Icon-based styling for clear step types
-* ⚛️ All state fully in-memory
+* ⚛️ All state handled in-memory
 
 ---
 
 ## 📁 Project Structure
 
-```bash
+```
 src/
   components/
     StepNav.tsx       # Main drag-and-drop UI
@@ -89,45 +88,35 @@ npm install
 npm run dev
 ```
 
-Visit `http://localhost:5173/` (or your Vite port) to see it.
+Visit `http://localhost:5173/` (or your local port) to view it.
 
 ---
 
-## 🧠 What I Learned
+## 🧠 What I Practiced
 
 ✅ Using @dnd-kit for sortable lists
-✅ Managing component state in React
+✅ Managing React state with hooks
 ✅ Handling click-outside events with `useRef` and `useEffect`
-✅ Structuring React components for reusability
+✅ Structuring reusable React components
 ✅ Styling with Tailwind CSS
-
----
-
-## 📌 Note on Authorship
-
-> I completed this project with guidance from online resources and ChatGPT, customizing and assembling the final code myself.
-
-My goal was **not** to invent every line from scratch, but to **learn to deliver a real-world UI** given a clear spec.
 
 ---
 
 ## 📄 License
 
-MIT – use freely, adapt, and learn from it!
+MIT – free to use and adapt.
 
 ---
 
 ## 🙌 Acknowledgements
 
-* [@dnd-kit](https://github.com/clauderic/dnd-kit) – for amazing drag-and-drop utilities
-* [Tailwind CSS](https://tailwindcss.com/) – for rapid, consistent styling
-* [Lucide](https://lucide.dev/) – for beautiful, free icons
-* ChatGPT – for step-by-step code guidance
+* [@dnd-kit](https://github.com/clauderic/dnd-kit) – drag-and-drop utilities
+* [Tailwind CSS](https://tailwindcss.com/) – utility-first styling
+* [Lucide](https://lucide.dev/) – beautiful open-source icons
 
 ---
 
 ## 💡 Author Note
 
-> I'm an early-career frontend developer with no professional experience yet, but I'm actively building projects like this to learn React + TypeScript.
+> I'm an early-career frontend developer actively building projects like this to strengthen my React + TypeScript skills.
 
----
