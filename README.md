@@ -7,10 +7,10 @@ A learning project: **Interactive Step Navigation UI** built with **React**, **T
 I created this as part of a **frontend take-home assignment**, using online resources and AI guidance to complete it.
 
 It demonstrates:
-✅ Custom drag-and-drop
-✅ Inline page insertion
-✅ Context menus per step
-✅ Clean component design in React + TypeScript
+- Custom drag-and-drop
+- Inline page insertion
+- Context menus per step
+- Clean component design in React + TypeScript
 
 ---
 
