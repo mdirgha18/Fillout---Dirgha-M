@@ -129,7 +129,5 @@ MIT – use freely, adapt, and learn from it!
 ## 💡 Author Note
 
 > I'm an early-career frontend developer with no professional experience yet, but I'm actively building projects like this to learn React + TypeScript.
->
-> If you're reading this as a potential employer, I'd love to talk about how I can keep learning on the job and contribute to your team.
 
 ---
