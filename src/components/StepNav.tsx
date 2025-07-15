@@ -19,7 +19,7 @@ import StepSettings from "./StepSettings";
 
 const initialSteps = ["Info", "Details", "Other", "Ending"];
 
-const stepIcons: Record<string, JSX.Element> = {
+const stepIcons: Record<string, React.ReactNode> = {
   Info: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
