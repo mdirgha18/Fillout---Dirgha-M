@@ -244,7 +244,7 @@ function SortableStep({
           ref={dropdownRef}
           className="absolute top-full left-0 mt-2 z-50 bg-white border rounded shadow-md w-40"
         >
-          <StepSettings onClose={() => setSettingsOpenFor(null)} />
+          <StepSettings />
         </div>
       )}
     </div>
