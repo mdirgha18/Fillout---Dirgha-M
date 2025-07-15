@@ -1,8 +1,6 @@
-type Props = {
-  onClose: () => void;
-};
 
-export default function StepSettings({ onClose }: Props) {
+
+export default function StepSettings() {
   return (
     <div className="absolute top-12 left-0 bg-white border rounded shadow-md w-48 z-10">
       <ul className="text-sm">
