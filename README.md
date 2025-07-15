@@ -1,56 +1,54 @@
 
+# 🧭 Page Navigation Component
 
-# 🧭 Drag-and-Drop Step Navigator
+An **interactive Page Navigation UI component** built with **React**, **TypeScript**, **Tailwind CSS**, and **@dnd-kit**.
 
-An **interactive Step Navigation UI** built with **React**, **TypeScript**, **Tailwind CSS**, and **@dnd-kit**.
+This project was built as my **submission for the first-round take-home assignment** for Fillout.
 
-Created as part of a **frontend take-home assignment**.
+It implements:
 
-It demonstrates:
-
-* Custom drag-and-drop behavior
+* Drag-and-drop page reordering
 * Inline page insertion
-* Per-step context menus
-* Clean, modular component design in React + TypeScript
+* Per-page settings menus
+* Clean, modular React component design
 
 ---
 
-## 🌟 Motivation
+## 🌟 Overview
 
-This project was built for a **first-round take-home assignment**.
+The Page Navigation Component lets users:
 
-As an early-career developer, I used this challenge to practice:
+✅ Reorder pages via drag-and-drop
+✅ Insert new pages between existing steps
+✅ Access per-page settings to:
 
-* Implementing **drag-and-drop** with @dnd-kit
-* Managing component state with **React hooks**
-* Designing UI with **Tailwind CSS**
-* Structuring requirements into **reusable components**
+* Set as first page
+* Rename
+* Duplicate
+* Copy
+* Delete
+
+All state is managed in-memory, with clear icons and hover interactions for an intuitive editing experience.
 
 ---
 
 ## 🚀 Features
 
-* ✅ Drag-and-drop step reordering
-* ➕ Inline "+" button to insert new pages
-* ⚙️ Per-step settings menu:
-
-  * Set as first
-  * Rename
-  * Duplicate
-  * Copy
-  * Delete
-* ✨ Icon-based styling for clear step types
-* ⚛️ All state handled in-memory
+* ⚡️ Drag-and-drop page reordering with @dnd-kit
+* ➕ Inline “+” buttons to insert new pages
+* ⚙️ Per-page settings menu with multiple actions
+* ✨ Icon-based styling for page types
+* ♻️ Fully client-side, no backend
 
 ---
 
-## 📁 Project Structure
+## 🗂️ Project Structure
 
 ```
 src/
   components/
-    StepNav.tsx       # Main drag-and-drop UI
-    StepSettings.tsx  # Dropdown settings menu
+    StepNav.tsx       # Main navigation UI with drag-and-drop
+    StepSettings.tsx  # Per-page settings dropdown
   App.tsx             # App shell
 ```
 
@@ -58,65 +56,48 @@ src/
 
 ## 🧰 Tech Stack
 
-| Tool               | Purpose                               |
-| ------------------ | ------------------------------------- |
-| React + TypeScript | UI components with static typing      |
-| Tailwind CSS       | Utility-first styling                 |
-| @dnd-kit           | Accessible drag-and-drop interactions |
-| Lucide Icons       | SVG icons for steps and settings      |
+| Tool               | Purpose                              |
+| ------------------ | ------------------------------------ |
+| React + TypeScript | UI component development with typing |
+| Tailwind CSS       | Utility-first, responsive styling    |
+| @dnd-kit           | Accessible, performant drag-and-drop |
+| Lucide Icons       | Clear, customizable SVG icons        |
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Getting Started
 
-1. Clone the repo:
+1️⃣ Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/step-navigator.git
-cd step-navigator
+git clone https://github.com/your-username/page-navigation-component.git
+cd page-navigation-component
 ```
 
-2. Install dependencies:
+2️⃣ Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start the dev server:
+3️⃣ Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Visit `http://localhost:5173/` (or your local port) to view it.
-
----
-
-## 🧠 What I Practiced
-
-✅ Using @dnd-kit for sortable lists
-✅ Managing React state with hooks
-✅ Handling click-outside events with `useRef` and `useEffect`
-✅ Structuring reusable React components
-✅ Styling with Tailwind CSS
+Open `http://localhost:5173/` in your browser to view the app.
 
 ---
 
 ## 📄 License
 
-MIT – free to use and adapt.
+MIT – Free to use and adapt.
 
 ---
 
-## 🙌 Acknowledgements
+## 💡 Author
 
-* [@dnd-kit](https://github.com/clauderic/dnd-kit) – drag-and-drop utilities
-* [Tailwind CSS](https://tailwindcss.com/) – utility-first styling
-* [Lucide](https://lucide.dev/) – beautiful open-source icons
+> I'm an early-career frontend developer focused on building solid React + TypeScript components with attention to UX, state management, and modern UI patterns.
 
----
-
-## 💡 Author Note
-
-> I'm an early-career frontend developer actively building projects like this to strengthen my React + TypeScript skills.
 
